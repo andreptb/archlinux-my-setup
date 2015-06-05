@@ -1,0 +1,4 @@
+---
+- name: "install eclipse feature"
+  command: "{{ eclipse_p2_exec }} -repository {{item.repository}} -installIU com.microsoft.tfs.client.eclipse.nl1.feature.feature.group"
+  with_items: eclipse

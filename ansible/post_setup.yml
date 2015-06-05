@@ -7,3 +7,5 @@
       when: samba is defined and samba.mount is defined
     - include: packages.yml
       when: packages is defined
+    - include: eclipse.yml
+      when: eclipse is defined

@@ -45,6 +45,13 @@ packages:
     - zsh
     - git
     - nodejs
+    - gnome
   # https://aur.archlinux.org/packages
   aur:
-    - jre
+    - jdk
+    - eclipse-jee
+
+eclipse:
+  - { repository: 'http://dl.microsoft.com/eclipse/tfs/', feature: 'com.microsoft.tfs.client.eclipse.nl1.feature.feature.group' }
+  - { repository: 'http://pathtools.googlecode.com/svn/trunk/PathToolsUpdateSite' , feature: 'PathToolsFeature.feature.group' }
+  - { repository: 'http://download.jboss.org/jbosstools/updates/stable/luna/', feature: 'org.jboss.ide.eclipse.as.feature.feature.group' }
